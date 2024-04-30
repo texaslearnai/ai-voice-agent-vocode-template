@@ -1,6 +1,6 @@
-# AI Voice Agent by Jannis Moore
+# AI Voice Agent
 
-This AI Voice Agent is designed and built by Jannis Moore to provide an advanced telephony interface using Vocode's telephony server. For more information and other projects by Jannis Moore, visit [Integraticus](https://integraticus.com) and check out the [YouTube Channel](https://www.youtube.com/@jannismoore/featured).
+This AI Voice Agent is designed and built  to provide an advanced telephony interface using Vocode's telephony server. 
 
 ## Setup Manual
 
