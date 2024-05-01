@@ -6,18 +6,19 @@ This AI Voice Agent is designed and built  to provide an advanced telephony inte
 
 To set up the AI Voice Agent, follow these steps:
 
-1. Sign up to [Render.com](https://render.com).
-2. Navigate to "New" > "Web Service" and connect your GitHub account if you haven't done that yet.
-3. Fork and import [this repository](https://github.com/texaslearnai/ai-voice-agent-vocode-template) within Render.com.
-4. Once done, Render will automatically set most of the values for you. You can customize the Region as you wish.
-5. Set the following environment variables: 
+1. Sign up to [Github](https://github.com).
+2. Fork [repository](https://github.com/texaslearnai/ai-voice-agent-vocode-template) under your own Github account
+3. Sign up to [Render](https://render.com).
+4. Navigate to "New" > "Web Service" and connect your GitHub account if you haven't done that yet.
+5. Once done, Render will automatically set most of the values for you. You can customize the Region as you wish.
+6. Set the following environment variables: 
     - `OPENAI_API_KEY`: Set this to your OpenAI API key.
     - `TRANSCRIPT_CALLBACK_URL`: Set this to the URL you want to call once a call was completed.
     - `TWILIO_ACCOUNT_SID`: Your Twilio Account ID.
     - `TWILIO_AUTH_TOKEN`: Your Twilio Auth token.
     - `DEEPGRAM_API_KEY`: The API key for your Deepgram Acccount.
-6. Once the app is deployed successfully, copy the Render.com URL and add `/inbound_call` at the end of it
-7. Paste that URL into the Webhook field of your Twilio Phone Number
+7. Once the app is deployed successfully, copy the Render.com URL and add `/inbound_call` at the end of it
+8. Paste that URL into the Webhook field of your Twilio Phone Number
 
 ## Manual Installation
 
@@ -25,7 +26,7 @@ This part of the manual is intended if you run the installation locally.
 
 First, build the application using Docker:
 
-```docker build -t jannismoore-telephony-app .```
+```docker build -t shiva-telephony-app .```
 
 Then, run the application using docker-compose. From the `telephony_app` directory, run:
 
