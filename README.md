@@ -8,7 +8,7 @@ To set up the AI Voice Agent, follow these steps:
 
 1. Sign up to [Render.com](https://render.com).
 2. Navigate to "New" > "Web Service" and connect your GitHub account if you haven't done that yet.
-3. Fork and import [this repository](https://github.com/jannismoore/ai-voice-agent-vocode-template) within Render.com.
+3. Fork and import [this repository](https://github.com/texaslearnai/ai-voice-agent-vocode-template) within Render.com.
 4. Once done, Render will automatically set most of the values for you. You can customize the Region as you wish.
 5. Set the following environment variables: 
     - `OPENAI_API_KEY`: Set this to your OpenAI API key.
