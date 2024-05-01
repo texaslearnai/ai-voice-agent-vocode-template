@@ -8,8 +8,8 @@ To set up the AI Voice Agent, follow these steps:
 
 1. Sign up to [Github](https://github.com).
 2. Fork [repository](https://github.com/texaslearnai/ai-voice-agent-vocode-template) under your own Github account
-3. Sign up to [OpenAI](https://openai.com).
-4. Sign up to [deepgram](https://deepgram.com).
+3. Sign up to [OpenAI](https://openai.com). Create an API Key and store it somewhere.
+4. Sign up to [deepgram](https://deepgram.com). Create an API Key and store it somewhere.
 5. Go to [webhook.site](https://webhook.site)
 6. Sign up to [Twilio](https://twilio.com).
 7. Sign up to [Render](https://render.com).
