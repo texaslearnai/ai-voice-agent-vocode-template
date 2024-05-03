@@ -78,7 +78,7 @@ def get_assistant_instructions():
 # GPT4AllAgent and ChatAnthropicAgent.
 # Don't forget to set OPENAI_API_KEY!
 AGENT_CONFIG = ChatGPTAgentConfig(
-  initial_message=BaseMessage(text="Hello, who am I talking to?"),
+  initial_message=BaseMessage(text="Hello, Alex here, how can I assist you today?"),
   prompt_preamble=get_assistant_instructions(),
   generate_responses=True,
 )
@@ -93,7 +93,7 @@ AGENT_CONFIG = ChatGPTAgentConfig(
 # higher quality (like Eleven Labs below, needs key) available in
 # vocode.streaming.models.synthesizer.
 SYNTH_CONFIG = StreamElementsSynthesizerConfig.from_telephone_output_device()
-# SYNTH_CONFIG = ElevenLabsSynthesizerConfig.from_telephone_output_device(
+#  SYNTH_CONFIG = ElevenLabsSynthesizerConfig.from_telephone_output_device(
 #   api_key=os.getenv("ELEVEN_LABS_API_KEY") or "<your EL token>")
 
 
